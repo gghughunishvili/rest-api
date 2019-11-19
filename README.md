@@ -5,7 +5,7 @@ This project provides RESTful API for general user's management, including roles
 It's based on best practices and TDD development.
 
 ### Packages Used:
-- WIP
+- [Spatie/Laravel-Permission](https://github.com/spatie/laravel-permission)
 
 ## License
 
