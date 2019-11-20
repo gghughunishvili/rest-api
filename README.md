@@ -6,6 +6,7 @@ It's based on best practices and TDD development.
 
 ### Packages Used:
 - [Spatie/Laravel-Permission](https://github.com/spatie/laravel-permission)
+- [Laravel Passport](https://github.com/laravel/passport)
 
 ## License
 
