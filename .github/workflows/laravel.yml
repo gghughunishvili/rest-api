@@ -21,5 +21,7 @@ jobs:
       env:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
-        APP_DEBUG: true
-      run: vendor/bin/phpunit
+      run: |
+        ls -al
+        cat .env
+        vendor/bin/phpunit
