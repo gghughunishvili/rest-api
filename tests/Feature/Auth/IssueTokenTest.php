@@ -22,7 +22,11 @@ class IssueTokenTEst extends TestCase
             'password' => $this->faker->password
 
         ];
-        $response = $this->json($this->method, $this->endpoint, $payload);
-        $response->assertStatus(401);
+        try {    
+            $response = $this->json($this->method, $this->endpoint, $payload);
+            $response->assertStatus(401);
+        } catch (\Exception $e) {
+            dd($e->getMessage(), $e);
+        }
     }
 }
